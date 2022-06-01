@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
-import 'music.dart';
 import 'package:just_audio/just_audio.dart';
+import 'db/music_list.dart';
 
 void main() {
   runApp(const MyApp());
@@ -80,13 +80,6 @@ class _MyHomePageState extends State<MyHomePage> {
       });
     });
   }
-
-  List<Music> myMusicList = [
-    Music('A State Of Trance', 'Armin', 'assets/images/A-State-Of-Trance.jpg',
-        'https://codiceo.fr/mp3/armin.mp3'),
-    Music('Civilisation', 'Orelsan', 'assets/images/Civilisation.jpg',
-        'https://codiceo.fr/mp3/civilisation.mp3'),
-  ];
 
   @override
   void initState() {
