@@ -124,14 +124,14 @@ class _MyHomePageState extends State<MyHomePage> {
               style: const TextStyle(color: Colors.white, fontSize: 25),
             ),
             const SizedBox(
-              height: 40,
+              height: 50,
             ),
             Text(
               myMusicList[index].singer,
               style: const TextStyle(color: Colors.white, fontSize: 15),
             ),
             const SizedBox(
-              height: 40,
+              height: 60,
             ),
             Row(
               mainAxisAlignment: MainAxisAlignment.center,
@@ -179,7 +179,7 @@ class _MyHomePageState extends State<MyHomePage> {
               ],
             ),
             const SizedBox(
-              height: 40,
+              height: 80,
             ),
             Text(
               format(duration),
